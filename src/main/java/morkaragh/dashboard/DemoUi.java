@@ -14,9 +14,9 @@ import morkaragh.dashboard.utils.DefaultColor;
 import java.util.Arrays;
 
 @Route("")
-public class MainUi extends VerticalLayout {
+public class DemoUi extends VerticalLayout {
 
-    public MainUi() {
+    public DemoUi() {
         BarChartModel barChartModel = prepareBarChartDemoModel();
         Chart barChart = new Chart(barChartModel);
         barChart.setWidth("800px");
